@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS login2;
+
+CREATE DATABASE login2; 
+
+USE login2;
+ 
+CREATE TABLE estilo(
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR (100),
+email VARCHAR (500),
+senha VARCHAR (700)
+);
+
+
+SELECT * FROM estilo
+
+
+
